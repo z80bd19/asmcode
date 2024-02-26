@@ -1,0 +1,44 @@
+
+Symtab for file hello.c at 0x55bfb36d6990
+Compilation directory is /home/jasonwer/code/hello
+Read from object file /home/jasonwer/code/hello/hello (0x55bfb36fc480)
+Language: c
+
+Line table:
+
+ line 5 at 0x1149	(stmt)
+ line 6 at 0x1151	(stmt)
+ line 8 at 0x1158	(stmt)
+ line 9 at 0x1167	(stmt)
+ line 10 at 0x116e	(stmt)
+ line 12 at 0x1187	(stmt)
+ line 13 at 0x118c	(stmt)
+ line 0 at 0x118e	(stmt)
+
+Blockvector:
+
+block #000, object at 0x55bfb37122d0, 1 syms/buckets in 0x1149..0x118e
+ int main(void); block object 0x55bfb3712160, 0x1149..0x118e section .text
+  block #001, object at 0x55bfb3712210 under 0x55bfb37122d0, 3 syms/buckets in 0x1149..0x118e
+   typedef unsigned long unsigned long; 
+   typedef unsigned char unsigned char; 
+   typedef signed char signed char; 
+   typedef long long long long; 
+   typedef unsigned int unsigned int; 
+   typedef unsigned short unsigned short; 
+   typedef short short; 
+   typedef unsigned long long unsigned long long; 
+   typedef int int; 
+   typedef long long; 
+   typedef char char; 
+    block #002, object at 0x55bfb3712160 under 0x55bfb3712210, 1 syms/buckets in 0x1149..0x118e, function main
+     int ln; computed at runtime
+
+
+Symtab for file /usr/include/stdio.h at 0x55bfb36d69d0
+Compilation directory is /home/jasonwer/code/hello
+Read from object file /home/jasonwer/code/hello/hello (0x55bfb36fc480)
+Language: c
+
+Blockvector same as owning compunit: hello.c
+
